@@ -1,0 +1,30 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(10, 8, 8);
+    color: rgb(234, 231, 231);
+}
+.Header .h1{
+    color: white;
+    text-decoration: none;
+}
+.Links{
+    margin-right: 32px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    background: green;
+    padding: 5px 20px 5px;
+    border-radius: 33px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.Links:hover{
+    background: rgb(64, 160, 64);
+}
+.Header h1{
+    margin-top: 15px;
+    margin-left: 62px;
+    font-size: 38px;
+}

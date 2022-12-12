@@ -1,15 +1,16 @@
-import firebase from 'firebase';
-  
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
+
 const firebaseConfig = {
-  apiKey: "AIzaSyC5CdDYtA0s1bHv3Sl1q6N7vy3mNKnP3aE",
-  authDomain: "table-52692.firebaseapp.com",
-  projectId: "table-52692",
-  storageBucket: "table-52692.appspot.com",
-  messagingSenderId: "480565591024",
-  appId: "1:480565591024:web:82090b347d10bdf1277b35"
+  apiKey: "AIzaSyChE5rl_7yeRs214GT0hRPgswF9DZW4OE4",
+  authDomain: "table-278bb.firebaseapp.com",
+  databaseURL: "https://table-278bb-default-rtdb.firebaseio.com",
+  projectId: "table-278bb",
+  storageBucket: "table-278bb.appspot.com",
+  messagingSenderId: "123191920390",
+  appId: "1:123191920390:web:644026c81d3e208b438087"
 };
-    
-firebase.initializeApp(firebaseConfig);
-var database = firebase.database();
-  
-export default database.ref();
+const app = initializeApp(firebaseConfig);
+const db= getDatabase();
+
+export {app, db};

@@ -4,7 +4,8 @@ import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import Main from './components/Main';
 import ViewEmp from './components/ViewEmp';
-import AddEditEmp from './components/AddEditEmp';
+import AddEmp from './components/AddEmp';
+import Edit from './components/Edit';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
         <ToastContainer position='top-center' />
         <Routes>
           <Route exact path='/' element={<Main />} />
-          <Route path='/add' element={<AddEditEmp />} />
-          <Route path='/edit/:id' element={<AddEditEmp />} />
+          <Route path='/add' element={<AddEmp />} />
+          <Route path='/edit/:id' element={<Edit />} />
           <Route path='/view/:id' element={<ViewEmp />} />
         </Routes>
       </div>

@@ -1,0 +1,50 @@
+.center-content{
+    background: white;
+    width: 500px;
+    margin-left: 487px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 14px;
+    margin-top: 21px;
+}
+.center-content .heading{
+    text-align: center;
+    background: #e24fa9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    font-size: 27px;
+}
+.center-content .Inputs{
+    width: 399px;
+    background: #cfc7c7;
+    padding: 8px;
+    border-radius: 16px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 33px;
+}
+.Button{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.Button button{
+    background: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    width: 397px;
+    margin-left: 53px;
+    border-radius: 3px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Button button:hover{
+    background: rgb(182, 239, 171);
+}
